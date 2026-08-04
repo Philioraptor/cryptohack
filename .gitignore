@@ -1,0 +1,34 @@
+# .gitignore for cryptohack project
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Python
+*.pyc
+*.pyo
+__pycache__/
+env/
+venv/
+
+# Environment variables
+.env
+.flaskenv
+
+# Editor-specific files
+.vscode/
+.idea/
+
+# Application specific
+fiat_offramp.py
+testnet_partner.py
+ai_engine.py
+web3_handler.py
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# Render specific
+.render/
