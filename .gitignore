@@ -20,10 +20,7 @@ venv/
 .idea/
 
 # Application specific
-fiat_offramp.py
-testnet_partner.py
-ai_engine.py
-web3_handler.py
+
 
 # Logs and databases
 *.log
